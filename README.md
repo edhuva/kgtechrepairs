@@ -4,14 +4,19 @@
 KGTech repair app - is a web application which provides business management repair note system for KGTech company,
 mainly improving its business functionaly by replacing the current manually sticky note system;
 
-### The project currently hosted on render and Link: https://kgtechrepairs.onrender.com/
+### The project currently hosted on Render
+Link: https://kgtechrepairs.onrender.com/
 
 ### APP INFO
-### Target audience: general employees, managers, admins and KGTech Owner
 
-### Author: Edwin Matema
+### Target audience: 
+general employees, managers, admins and KGTech Owner
 
-**Features** include: login, notes management, employees management, security, user roles (user ristriction levels), etc
+### Author: 
+Edwin Matema
+
+### Features
+include: login, notes management, employees management, security, user roles (user ristriction levels), etc
 
 1. Replace current sticky note system
 2. Add a public facing page with basic contact info 
