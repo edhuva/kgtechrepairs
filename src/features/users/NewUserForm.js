@@ -67,7 +67,7 @@ const NewUserForm = () => {
 
     const options = Object.values(ROLES).map(role => {
         return (
-            <option key={role} vale={role} >{role}</option>
+            <option key={role} value={role} >{role}</option>
         )
     })
 
@@ -78,6 +78,7 @@ const NewUserForm = () => {
 
     const content = (
         <>
+
             <p className={errClass}>{error?.data?.message}</p>
             
             <form className='form' onSubmit={onSaveUserClicked}>
@@ -92,7 +93,7 @@ const NewUserForm = () => {
                 <label className='form__label' htmlFor='username'>Username: <span className='nowrap'>[3-20 letters]</span></label>
                 <input className={`form__input ${validUserClass}`} id='username' name='username' type='text' autoComplete='off' value={username} onChange={onUsernameChanged}/>
 
-                <label className='form__label' htmlFor='password'>Password: <span className='nowrap'>[4-12 chars incl. 1@#$%]</span></label>
+                <label className='form__label' htmlFor='password'>Password: <span className='nowrap'>[4-12 chars incl. !@#$%]</span></label>
                 <input className={`form__input ${validPwdClass}`} id='password' name='password' type='password' value={password} onChange={onPasswordChanged} />
 
                 <label className='form__label' htmlFor='roles'>ASSIGNED ROLES:</label>
@@ -102,7 +103,7 @@ const NewUserForm = () => {
                 </select>
             </form>
             <div className='app__backdash'>
-                <button className='login__button'><Link to='/dash'>Back to DashBoard</Link> </button>
+            <Link to='/dash'><button className='login__button'>Back to DashBoard </button></Link>
             </div>
         </>
     )

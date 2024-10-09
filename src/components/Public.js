@@ -15,7 +15,7 @@ const Public = () => {
                     <h1><span className='welcome-hide'>Welcome to</span> <span className='nowrap'>KGTech Repairs!</span></h1>
                 </div>
                 
-                <button className='login__button'><Link to='/login'>Employee Login</Link> </button>
+                <Link to='/login'><button className='login__button'>Employee Login</button></Link> 
             </header>
             <main className='public__main'>
                 <div className='public__p'>
@@ -27,11 +27,11 @@ const Public = () => {
                     169 Feni Street<br />
                     NU 10 Motherwell<br />
                     PortElizabeth<br />
-                    6211
+                    6211<br />
                     <a href='tel:+27628493704'>+2762 849 3704</a>
                 </address>
                 <br />
-                <p>Owner: KGTech</p>
+                <p className='font-bold'>Owner: KGTech</p>
             </main>
             <footer>
                 <p className='center'>{today}</p>

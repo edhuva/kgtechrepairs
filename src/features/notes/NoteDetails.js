@@ -78,7 +78,7 @@ const NoteDetails = ({ note}) => {
 
         </div>
         <div className='app__backdash'>
-            <button className='login__button'><Link to='/dash/notes'>Back to Notes List</Link> </button>
+        <Link to='/dash/notes'><button className='login__button'>Back to Notes List </button></Link>
         </div>
     </>
    

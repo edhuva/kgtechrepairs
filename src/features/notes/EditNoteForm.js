@@ -29,7 +29,7 @@ const EditNoteForm = ({ note, users}) => {
 
   const [title, setTitle] = useState(note.title);
   const [text, setText] = useState(note.text);
-  const [completed, setConpleted] = useState(note.completed);
+  const [completed, setCompleted] = useState(note.completed);
   const [userAssignedId, setUserAssignedId] = useState(user.id);
 
   useEffect(() => {
@@ -43,7 +43,7 @@ const EditNoteForm = ({ note, users}) => {
 
   const onTitleChanged = e => setTitle(e.target.value);
   const onTextChanged = e => setText(e.target.value);
-  const onCompeletedChanged = e => setConpleted(prev => !prev);
+  const onCompeletedChanged = e => setCompleted(prev => !prev);
   const onUserIdChanged = e => setUserAssignedId(e.target.value);
 
   const canSave = [title, text].every(Boolean) && !isLoading;
@@ -154,7 +154,7 @@ const EditNoteForm = ({ note, users}) => {
           </div>
       </form>
       <div className='app__backdash'>
-        <button className='login__button'><Link to='/dash/notes'>Back to Notes List</Link> </button>
+      <Link to='/dash/notes'><button className='login__button'>Back to Notes List</button></Link>
       </div>
     </>
   )

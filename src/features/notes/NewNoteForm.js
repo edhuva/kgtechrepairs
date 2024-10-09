@@ -123,7 +123,7 @@ const NewNoteForm = ({ users }) => {
                 </div>
             </form>
             <div className='app__backdash'>
-                <button className='login__button'><Link to='/dash'>Back to DashBoard</Link> </button>
+            <Link to='/dash'><button className='login__button'>Back to DashBoard </button></Link>
             </div>
         </>
     )

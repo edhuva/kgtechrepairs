@@ -50,12 +50,12 @@ const NotesList = () => {
             <tr>
               <th scope='col' className='table__th note__status'>Status</th>
               <th scope='col' className='table__th note__created'>Created</th>
-              <th scole='col' className='table__th note__updated'>Updated</th>
-              <th scole='col' className='table__th note__title'>Title</th>
-              <th scole='col' className='table__th note__username'>Created By</th>
-              <th scole='col' className='table__th note__username'>Assigned To</th>
-              <th scole='col' className='table__th note__edit'>Edit</th>
-              <th scole='col' className='table__th note__view'> Details</th>
+              <th scope='col' className='table__th note__updated'>Updated</th>
+              <th scope='col' className='table__th note__title'>Title</th>
+              <th scope='col' className='table__th note__username'>Created By</th>
+              <th scope='col' className='table__th note__username'>Assigned To</th>
+              <th scope='col' className='table__th note__edit'>Edit</th>
+              <th scope='col' className='table__th note__view'> Details</th>
             </tr>
           </thead>
           
@@ -64,7 +64,7 @@ const NotesList = () => {
           </tbody>
         </table>  : <p className='center'>Empty Notes...</p>}
         <div className='app__backdash'>
-          <button className='login__button'><Link to='/dash'>Back to DashBoard</Link> </button>
+        <Link to='/dash'><button className='login__button'>Back to DashBoard </button></Link>
         </div>
       </> 
         

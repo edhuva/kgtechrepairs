@@ -63,10 +63,11 @@ const EditUserForm = ({ user }) => {
 
     const onActiveChanged = () => setActive(prev => !prev);
 
-    const onSaveUserClicked = async (e) => {
+    const onSaveUserClicked = async () => {
         if (password) {
             await updateUser({ id: user.id, username, password, roles, active})
-        } else {
+        } 
+        else {
             await updateUser({ id: user.id, username, roles, active })
         }
     }
@@ -136,7 +137,7 @@ const EditUserForm = ({ user }) => {
                 </select>
             </form>
             <div className='app__backdash'>
-                <button className='login__button'><Link to='/dash'>Back to DashBoard</Link> </button>
+            <Link to='/dash'><button className='login__button'>Back to DashBoard </button></Link>
             </div>
         </>
     )

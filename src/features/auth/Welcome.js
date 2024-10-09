@@ -7,7 +7,6 @@ const Welcome = () => {
 
     useTitle(`KGTech: ${username}`);
 
-
     const date = new Date();
     const today = new Intl.DateTimeFormat('en-SA', { dateStyle: 'full', timeStyle: 'long' }).format(date);
 
@@ -17,10 +16,10 @@ const Welcome = () => {
 
             <h1>Welcome {username}!</h1>
 
-            <button className="app__button"><Link to='notes'>View techNotes</Link></button>
-            <button className="app__button"><Link to='notes/new'>Add New Note</Link></button>
-            {(isManager || isAdmin) && <button className="app__button"><Link to='users'>View User Settigs</Link></button>}
-            {(isManager || isAdmin) && <button className="app__button"><Link to='users/new'>Add New User</Link></button>}
+            <Link to='notes'><button className="app__button">View techNotes</button></Link>
+            <Link to='notes/new'><button className="app__button">Add New Note</button></Link>
+            {(isManager || isAdmin) && <Link to='users'><button className="app__button">View User Settigs</button></Link>}
+            {(isManager || isAdmin) && <Link to='users/new'><button className="app__button">Add New User</button></Link>}
         </section>
     )
 
