@@ -1,10 +1,19 @@
+
 ### KGTech Repair Version 1 
-### Link https://kgtechrepairs.onrender.com/
 
-KGTech repair app - is an application which provides business management note system for KGTech company;
-features include: login, notes management, employee management, security, user roles, etc
+KGTech repair app - is a web application which provides business management repair note system for KGTech company,
+mainly improving its business functionaly by replacing the current manually sticky note system;
 
- 1. Replace current sticky note system
+### The project currently hosted on render and Link: https://kgtechrepairs.onrender.com/
+
+### APP INFO
+### Target audience: general employees, managers, admins and KGTech Owner
+
+### Author: Edwin Matema
+
+**Features** include: login, notes management, employees management, security, user roles (user ristriction levels), etc
+
+1. Replace current sticky note system
 2. Add a public facing page with basic contact info 
 3. Add an employee login to the notes app 
 4. Provide a welcome page after login 
@@ -23,4 +32,23 @@ features include: login, notes management, employee management, security, user r
 17. Managers and Admins can view, edit, and delete all notes 
 18. Only Managers and Admins can access User Settings 
 19. Only Managers and Admins can create new users 
-20. Desktop mode is most important but should be available in mobile 
+20. Desktop mode is most important but should be available in mobile
+
+ ### KGTech Repair: Home Page
+ ![kgtech-v1-1](https://github.com/user-attachments/assets/c7e53c7f-9d10-489d-a9ed-df3899706796)
+
+ ### KGTech Repair: DashBoard Page
+ ![kgtech-v1-2](https://github.com/user-attachments/assets/6bd0af6c-4515-4b39-ac60-290bcdcb9f3b)
+
+ ### KGTech Repair: Users List
+ ![kgtech-v1-3](https://github.com/user-attachments/assets/92098d6d-2148-47cc-b2f8-d88d3ff80859)
+
+ ### KGTech Repair: Notes List
+ ![kgtech-v1-4](https://github.com/user-attachments/assets/b9598c3a-e8b5-4ab8-afd9-e0a4a74ca64d)
+
+ ### KGTech Repair: Add User Form
+ ![kgtech-v1-5](https://github.com/user-attachments/assets/2f59a476-2d7e-4b39-afa2-c6d00ead9a5e)
+
+ ### KGTech Repair: Add Note
+ ![kgtech-v1-6](https://github.com/user-attachments/assets/b00ca9fb-20b4-4f42-b139-7f71914f654e)
+
