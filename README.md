@@ -1,5 +1,5 @@
 
-### KGTech Repair Version 1 
+# KGTech Repair Version 1 
 
 KGTech repair app - is a web application which provides business management repair note system for KGTech company,
 mainly improving its business functionaly by replacing the current manually sticky note system.
