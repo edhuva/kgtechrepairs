@@ -6,7 +6,7 @@ mainly improving its business functionaly by replacing the current manually stic
 
 ### The project currently hosted on Render
 Link: https://kgtechrepairs.onrender.com/
-This is hosted on Render free-tier and may take a few seconds to spin up!
+#### This is hosted on Render free-tier and may take a few seconds to spin up!
 
 
 ## APP INFO
