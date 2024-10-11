@@ -7,7 +7,7 @@ mainly improving its business functionaly by replacing the current manually stic
 ### The project currently hosted on Render
 Link: https://kgtechrepairs.onrender.com/
 
-### APP INFO
+## APP INFO
 
 ### Target audience: 
 general employees, managers, admins and KGTech Owner
