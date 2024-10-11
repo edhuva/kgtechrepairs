@@ -8,7 +8,6 @@ mainly improving its business functionaly by replacing the current manually stic
 Link: https://kgtechrepairs.onrender.com/
 
 
-
 ## APP INFO
 
 ### Target audience: 
