@@ -20,18 +20,18 @@ Edwin Matema
 include: login, notes management, employees management, security, user roles (user ristriction levels), etc
 
 ### Resources & Tools include: 
-2. MongoDB Atlas - Database
-3. JSON Web Tokens - Security service (access tokens and refresh tokens)
-4. Git and GitHub - Code version control, Store and Sharing code
-5. onRender - App Deployement and Hosting
-6. Reactjs - Frontend Framework
-7. Expressjs - Backend Framework
-8. Nodejs - Javascript Runtime Environment
-9. Javascript, JSX, HTML, CSS - Languages
-10. Chrome, FireFox - Browsers
-11. Redux - State Management
-12. RKT Query - Data fetching and Catching
-13. etc
+1. MongoDB Atlas - Database
+2. JSON Web Tokens - Security service (access tokens and refresh tokens)
+3. Git and GitHub - Code version control, Store and Sharing code
+4. onRender - App Deployement and Hosting
+5. Reactjs - Frontend Framework
+6. Expressjs - Backend Framework
+7. Nodejs - Javascript Runtime Environment
+8. Javascript, JSX, HTML, CSS - Languages
+9. Chrome, FireFox - Browsers
+10. Redux - State Management
+11. RKT Query - Data fetching and Catching
+12. etc
 
 ### Checklist:
 1. [x] Replace current sticky note system
